@@ -71,6 +71,7 @@ speller:
 translator:
   dictionary: luna_pinyin
   prism: luna_pinyin_jiugong
+  spelling_hints: 16 # ～字以內候選標註完整帶調拼音
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
