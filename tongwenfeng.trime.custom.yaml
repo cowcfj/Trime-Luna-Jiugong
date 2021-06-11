@@ -51,3 +51,8 @@ patch:
     label: "英文"
     select: letter
     send: Eisu_toggle
+    
+#界麵風格、功能開關
+style:
+  candidate_text_size: 20  #候選字號
+  locale: zh_TW #缺省語言 zh_TW,zh_CN,zh_HK,""
