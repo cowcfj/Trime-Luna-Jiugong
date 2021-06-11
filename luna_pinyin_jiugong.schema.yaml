@@ -16,8 +16,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: zh_simp
-    reset: 1
+  - name: simplification
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -85,17 +84,11 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-simplifier:
-  option_name: zh_simp
-
 punctuator:
   import_preset: default
 
 key_binder:
   import_preset: default
-  bindings:
-    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
-    - { when: always, accept: Control+Shift+dollar, toggle: zh_simp }
 
 recognizer:
   import_preset: default
